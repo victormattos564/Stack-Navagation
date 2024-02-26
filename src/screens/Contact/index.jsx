@@ -18,6 +18,7 @@ export default function Contact() {
       <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Profile")}>
         <Text>Profile</Text>
       </TouchableOpacity>
+      
     </View>
   )
 }

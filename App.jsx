@@ -17,9 +17,9 @@ export default function App() {
       <Stack.Navigator>
         <Stack.Screen name='Home' component={Home}
           options={{
-            title: "Início",
+            title: "Tela Inicial",
             headerStyle: {
-              backgroundColor: "#A9A9A9",
+              backgroundColor: "#f4511e",
             },
             headerTintColor: "#fff",
             headerTitleStyle: {
