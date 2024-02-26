@@ -13,7 +13,10 @@ export default function Home() {
       <Text>Home</Text>
       <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Profile")}>
         <Text>Profile</Text>
+      </TouchableOpacity>
 
+      <TouchableOpacity style={styles.navButton} onPress={()=> navigation.navigate("Contact")}>
+        <Text>Contact</Text>
       </TouchableOpacity>
     </View>
   )
